@@ -197,7 +197,7 @@ public class SendMail {
 		//送信元名称
 		String fromMailName = "sender name";
 		//件名
-		String subject = "こんにちは！！";
+		String subject = "こんにちは！";
 
 		//ここをDBからの取得にすれば複数のメールアドレスを取ることが容易
 		Map<Integer,Map<String,String>> userMap = new LinkedHashMap<Integer,Map<String,String>>();
