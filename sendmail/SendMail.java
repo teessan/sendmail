@@ -1,5 +1,4 @@
 package sendmail;
-//test
 import java.io.UnsupportedEncodingException;
 import java.util.Date;
 import java.util.LinkedHashMap;
