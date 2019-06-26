@@ -210,7 +210,7 @@ public class SendMail {
 		userMap.put(1,user1);
 		userMap.put(2,user2);
 
-		//何通も配信するならここをloopにする
+
 		for (Map.Entry<Integer,Map<String,String>> element : userMap.entrySet()) {
 			 Map<String,String> scores = element.getValue();
 			 String sendMailAddress = scores.get("mail_address");
